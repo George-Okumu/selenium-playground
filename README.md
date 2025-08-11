@@ -33,7 +33,8 @@ cd selenium-playground
 ```bash
 java --version
 ```
-<p>If no version found, follow the tutorial below to install Java </p>
+<p>If no version found, follow the tutorial below to install Java: </p>
+
 [Installing Java V21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
 
 ### 3. Import Project into your IDEA
