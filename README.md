@@ -19,7 +19,7 @@ A personal sandbox for learning and experimenting with Selenium WebDriver. Inclu
 - **IntelliJ IDEA**
 - Optional: **WebDriverManager** for auto driver management
 
-##  Installation Instructions
+## Setup & Installation Instructions
 
 ### 1. Clone the Repository
 
@@ -28,7 +28,7 @@ git clone https://github.com/yourusername/selenium-playground.git
 cd selenium-playground
 ```
 ### 2. Install Java
-<p>Ensure you have Java 17 or later installed. Verify with:</p>
+<p>Ensure you have Java 21 installed. Verify with:</p>
 
 ```bash
 java --version
@@ -41,7 +41,18 @@ java --version
 <ul>
   <li>Open the project in IntelliJ IDEA</li>
   <li> Let Maven resolve dependencie</li>
+  <li>Incase of any issues run ``` mvn clean install ``` to update the deps</li>
 </ul>
+
+### 4. Running the Program
+<p>From your main Program, Run the Main.java file using the Run Command</p>
+<p>After 15 seconds, a chrome tab will open, then the source code of the targeted url website will show on the terminal as shown in the pictures below</p>
+
+<img width="400" height="400" title="Selenium's ChromeDiver" alt="Screenshot from 2025-08-11 18-12-00" src="https://github.com/user-attachments/assets/4006546a-f6e7-4488-9483-b569577d96e3" />
+
+<img width="400" height="400" title="Source code as displayed by Selenium" alt="Screenshot from 2025-08-11 18-12-31" src="https://github.com/user-attachments/assets/83abb871-c6a8-447d-9cca-02ff5ee057dc" />
+
+
 
 
 # AI Prompt Journal
