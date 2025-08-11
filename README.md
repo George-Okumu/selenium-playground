@@ -24,7 +24,7 @@ A personal sandbox for learning and experimenting with Selenium WebDriver. Inclu
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/selenium-playground.git
+git clone git@github.com:George-Okumu/selenium-playground.git
 cd selenium-playground
 ```
 ### 2. Install Java
@@ -41,8 +41,10 @@ java --version
 <ul>
   <li>Open the project in IntelliJ IDEA</li>
   <li> Let Maven resolve dependencie</li>
-  <li>Incase of any issues run ``` mvn clean install ``` to update the deps</li>
 </ul>
+
+- In case of any issue, run `mvn clean install` to update the `maven` deps
+
 
 ### 4. Running the Program
 <p>From your main Program, Run the Main.java file using the Run Command</p>
